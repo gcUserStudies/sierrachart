@@ -1,0 +1,29 @@
+# Helpful Guide
+# https://jasonstitt.com/gitignore-whitelisting-patterns
+
+# Ignore everything
+*
+# But descend into specific directories
+!/bin
+!/chartbooks
+!/nlohmann
+
+# Recursively allow files under specific directories
+!/bin/**
+!/chartbooks/**
+!/nlohmann/**
+
+# Allow gitignore
+!.gitignore
+
+# Allow README
+!README.md
+
+# Allow source sync script
+!sync_sierra.sh
+
+# Allow specific study files
+!gcUserStudies_2496.cpp
+!gcUserStudies_2497.cpp
+!gcUserStudies_2499.cpp
+!gcUserStudies_2500.cpp
